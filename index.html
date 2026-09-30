@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animaux étonnants</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Animaux étonnants</h1>
+        <p>Quelques faits surprenants sur des animaux… et un secret à la fin.</p>
+    </header>
+
+    <main>
+
+        <img src="images/animaux.jpg" alt="Animaux étonnants">
+
+        <section>
+            <h2>Quelques conseils essentiels</h2>
+
+            <div class="cartes">
+
+                <div class="carte">
+                    <h3>🐙 Pieuvre</h3>
+                    <p>Les pieuvres ont trois cœurs et peuvent changer rapidement la couleur et la texture de leur peau.</p>
+                </div>
+
+                <div class="carte">
+                    <h3>🦦 Loutre de mer</h3>
+                    <p>Les loutres de mer utilisent parfois des pierres comme outils pour ouvrir des coquillages.</p>
+                </div>
+
+                <div class="carte">
+                    <h3>🐦 Corbeau</h3>
+                    <p>Les corbeaux sont des oiseaux très intelligents et sociaux. Ils peuvent résoudre des problèmes complexes et utiliser certains outils.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Secret</h2>
+
+            <button onclick="afficherSecret()">Révéler un fait animalier EXTRÊMEMENT important</button>
+            <p id="secret"></p>
+            <img id="secretImage" src="" alt="Chat secret" style="display:none; max-width: 300px;">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Aucun animal n'a été maltraité durant la compilation de ce code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
