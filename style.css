@@ -1,0 +1,49 @@
+header {
+    background-color: lightslategray;
+    margin-left: auto;
+    margin-right: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: lightslategray;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+
+}
+.navbar{
+    margin: auto;
+}
+.navbar a:hover{
+    background-color: slategray;
+}
+.navbar li{
+    float: left;
+}
+section {
+    margin-top: 100px;
+    margin-bottom: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-margin-top: 100px;
+    background-color: white;
+    min-height: 600px;
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 12px 14px dodgerblue;
+}
+body {
+    overflow: hidden;
+    background-color: lightblue;
