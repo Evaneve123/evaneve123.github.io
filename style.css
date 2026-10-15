@@ -38,7 +38,7 @@ header {
     border: 0px solid;
 }    
 
-.button hover{
+.button a:hover{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
