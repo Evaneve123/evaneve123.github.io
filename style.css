@@ -36,8 +36,18 @@ header {
     height: auto;
     background: none;
     border: 0px solid;
-    
+}    
+
+.button hover{
+    background-color: rgba(0, 0, 0, 0.7);
 }
+
+.x {
+    background: none;
+    color: white;
+    float: left;
+}
+
 .bg {
     position: relative;
     width: 350px;
@@ -48,11 +58,6 @@ header {
     font-size: 30px;
 }
 
-.x {
-    background: none;
-    color: white;
-    float: left;
-}
 .bg img{
     max-width: 120%;
 }
