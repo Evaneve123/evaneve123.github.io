@@ -1,0 +1,85 @@
+header {
+    background-color: lightslategray;
+    margin-left: auto;
+    margin-right: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: lightslategray;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+
+}
+.navbar{
+    margin: auto;
+}
+.navbar a:hover{
+    background-color: slategray;
+}
+.navbar li{
+    float: left;
+}
+.button {
+    max-width: 25px;
+    height: auto;
+    background: none;
+    border: 0px solid;
+    
+}
+.bg {
+    position: relative;
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.x {
+    background: none;
+    color: white;
+    float: left;
+}
+.bg img{
+    max-width: 120%;
+}
+.ov {
+    display: none;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+section {
+    margin-top: 125px;
+    margin-bottom: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    scroll-margin-top: 125px;
+    background-color: white;
+    min-height: 600px;
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 12px 14px dodgerblue;
+}
+
+body {
+    overflow: hidden;
+    background-color: lightblue;
+}
